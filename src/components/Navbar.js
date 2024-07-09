@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 
 
+
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -14,7 +15,7 @@ const Navbar = () => {
             <div className="navbar-toggle" onClick={toggleMenu}>
                 &#9776;
             </div>
-
+           
             <ul className="navbar-menu" >
 
                 <li><a href="/">Home</a></li>
